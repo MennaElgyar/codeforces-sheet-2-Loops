@@ -1,0 +1,19 @@
+#include <iostream>
+#include<iomanip>
+#include<math.h>
+#include<cmath>
+#include<stdio.h>
+using namespace std;
+ 
+int main() {
+  
+int N ;
+int i=1 ;
+cin>>N;
+    while (i <= N){
+        if(i%2==0)
+        cout<<i<<endl;
+    i++;
+    }
+    if(N==1)cout<<-1;
+}
