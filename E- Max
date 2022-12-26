@@ -1,0 +1,18 @@
+#include <iostream>
+#include<math.h>
+#include<cmath>
+using namespace std;
+ 
+int main() {
+   int m =0;
+   int N;
+   cin>>N;
+   int num;
+   for(int i=1;i<=N;i++){
+       cin>>num;
+       if(num>m){
+           m=num;
+       }
+   }
+   cout<<m<<endl;
+}
